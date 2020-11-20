@@ -1,0 +1,125 @@
+{
+  "recaudador": {
+    "codigo": "BANBIF"
+  },
+  "convenio": {
+    "codigo": "13"
+  },
+  "cliente": {
+    "id": ""
+  },
+  "moneda": "SOL",
+  "cantidadPagos": 1,
+  "agrupacion": false,
+  "montoTotalDeuda": 466.3,
+  "montoTotalSaldo": 0.0,
+  "deudas": [
+    {
+      "datosAdicionales": [
+        {
+          "nombre": "Nombre",
+          "valor": "ORTIZ PONTE MANUEL AUGUSTO"
+        },
+        {
+          "nombre": "FecEmision",
+          "valor": "20071119"
+        },
+        {
+          "nombre": "CODEBRANCH",
+          "valor": "100"
+        },
+        {
+          "nombre": "TRNCODE",
+          "valor": "1834"
+        },
+        {
+          "nombre": "TELLUSERID",
+          "valor": "REDDIG"
+        },
+        {
+          "nombre":"Cod_RED",
+          "valor":"02"
+        },
+        {
+          "nombre":"Cod_TRX",
+          "valor":"290050"
+        },
+        {
+          "nombre":"Des_TRX",
+          "valor":""
+        },
+        {
+          "nombre":"Cod_Terminal",
+          "valor":"80680102"
+        },
+        {
+          "nombre":"Cod_OperaTrace",
+          "valor":"005516"
+        },
+        {
+          "nombre":"Cod_Autoriza",
+          "valor":""
+        },
+        {
+          "nombre":"Ubi_Terminal",
+          "valor":""
+        },
+        {
+          "nombre":"Nro_Cuenta",
+          "valor":""
+        },
+        {
+          "nombre":"Nro_Tarjeta",
+          "valor":""
+        },
+        {
+          "nombre":"Nro_Cuotas",
+          "valor":""
+        },
+        {
+          "nombre":"ID_Servicio",
+          "valor":"105385"
+        },
+        {
+          "nombre":"ID_Recibo",
+          "valor":""
+        },
+        {
+          "nombre":"Nom_EmpServ",
+          "valor":""
+        }
+      ],
+      "fechaVencimiento": "2008-09-03",
+      "cliente": {
+        "id": ""
+      },
+      "idConsulta": "7026558",
+      "servicios": [
+        {
+          "id": "109710"
+        }
+      ],
+      "montoSaldoDestino": 0.0,
+      "montoDescuentoDestino": 0,
+      "montoMultaDestino": 0,
+      "montoVencidoDestino": 62.7,
+      "montoInteresDestino": 0,
+      "montoReajusteDestino": 0,
+      "montoTotalDestino": 63.7,
+      "documento": {
+        "numero": "000000100194237"
+      },
+      "pagos": [
+        {
+          "tipoOperacion": "PAGO_TOTAL_CUOTA",
+          "medioPago": "EFECTIVO",
+          "cuentaCargo": {
+            "numero": ""
+          },
+          "monto": 63.7,
+          "deudaAPagar": 63.7
+        }
+      ]
+    }
+  ]
+}

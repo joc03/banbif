@@ -1,0 +1,33 @@
+{
+  "empresa": {
+    "codigo": "12345678901",
+    "razonSocial": "RED DIGITAL",
+    "servicio": {
+      "id": "12345678"
+    }
+  },
+  "cliente": {
+    "documento": {
+      "tipo": "REGISTRO_UNICO_DEL_CONTRIBUYENTE",
+      "numero": "10023958398"
+    },
+    "tributo": {
+      "mesPeriodoTributario": "10",
+      "yearPeriodoTributario": 2019,
+      "montoIngresosMes": 10000,
+      "montoComprasMes": 5000,
+      "montoCompensacionPagosEfectuados": 0,
+      "montoCompensacionPercepciones": 0,
+      "importePagar": 2000,
+      "declaratoria": "SI"
+    }
+  },
+  "recaudadora": {
+    "codigoCanal": "RD",
+    "cajero": "REDD01",
+    "codigoTerminalCanal": "TER01",
+    "codigoOperadorTerminalCanal": "RED01",
+    "numeroOperacionCanal": "00000000"
+  },
+  "fecha": "2019-10-25 15:49:17"
+}
