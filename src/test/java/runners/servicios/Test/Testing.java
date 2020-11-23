@@ -344,10 +344,10 @@ String palabra="asdasdsada!!#$%&/()(/&%$%&token=sdfsd fstsresres #$/()(/&)=+5546
          String TOKEN="";
          String API="";
          Response response;
-         String casoDePrueba="50";
+         String casoDePrueba="8";
 
-        API="RedDigital";
-        TOKEN= PostToken.postTokenWithExcelSheet(casoDePrueba,API);
+        API="AppBpi";
+        TOKEN= PostToken.postTokenWithExcelSheetSslVerificaction(casoDePrueba,API);
         System.out.println(TOKEN);
 
         response= Post.postWithExcelSheet("Bearer "+TOKEN,casoDePrueba,API);
@@ -361,6 +361,23 @@ String palabra="asdasdsada!!#$%&/()(/&%$%&token=sdfsd fstsresres #$/()(/&)=+5546
         }else {
             System.out.println(respuestaaux);
         }
+
+        //gettest("Bearer " +TOKEN);
+    }
+
+
+    @Test
+    public void testToken() throws Throwable {
+
+        String TOKEN="";
+        String API="";
+        Response response;
+        String casoDePrueba="6";
+
+        API="AppBpi";
+        TOKEN= PostToken.postTokenWithExcelSheet(casoDePrueba,API);
+        System.out.println(TOKEN);
+
 
         //gettest("Bearer " +TOKEN);
     }

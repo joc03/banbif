@@ -164,6 +164,7 @@ public class Post {
         RestAssured.baseURI =baseUrl;
 
         RequestSpecification request = given();
+        request.relaxedHTTPSValidation();//IGNORAR LA VERIFICACION SSL
 
         request.body(body);
 
